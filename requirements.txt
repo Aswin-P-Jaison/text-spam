@@ -1,7 +1,7 @@
 streamlit
 pandas
 tensorflow
-pickle
-sklearn
+
+scikit-learn
 seaborn
 matplotlib
