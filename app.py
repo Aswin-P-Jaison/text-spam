@@ -7,7 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the saved model
-model = tf.keras.models.load_model(r'C:\Users\aswin\OneDrive\Desktop\deep-learning\DL-ALGORITHMS\RNN\results\model\spam_model')
+model = tf.keras.models.load_model(r'C:\Users\aswin\OneDrive\Desktop\spam\text-spam\results\model\spam_model')
 
 # Load the tokenizer
 with open('tokenizer.pkl', 'rb') as file:
